@@ -1,0 +1,29 @@
+/* set up page */
+*{
+  text-align: center;
+}
+
+body {
+  font-size: 1em;
+}
+
+/* rightnow done, but when will minimaze code back to this */
+
+/* adding backgroung for pixelperfect with opacity 50% */
+
+.pixel {
+  width: auto;
+  height: auto;
+  position:relative;
+}
+
+.pixel::after {
+    content: "";
+    background-image: url("design/mobile-design.jpg");
+    background-repeat: no-repeat;
+    background-size: 375px auto;
+    opacity: 0.5;
+    top: 0; bottom: 0; left: 0; right: 0;
+    position: absolute;
+    z-index: -1;
+  }
