@@ -25,48 +25,67 @@
 
 <body>
   <div class="pixel">
-    <header class="header">
-      <!-- change size of logo when you will add css -->
-      <a class="logo" href="#"><img src="images/logo.svg" width="100" height="100" alt="Blogr"></a>
-      <!-- change navbar link to example  https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_responsive_navbar_dropdown -->
-      <button type="button" name="button">
-        <ul>
-          <li><a href="#">Product</a>
-            <ul>
-              <li><a href="#">Overview</a></li>
-              <li><a href="#">Pricing</a></li>
-              <li><a href="#">Marketplace</a></li>
-              <li><a href="#">Features</a></li>
-              <li><a href="#">Integrations</a></li>
-            </ul>
-          </li>
-          <li><a href="#">Company</a>
-            <ul>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Team</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Careers</a></li>
-            </ul>
-          </li>
-          <li><a href="#">Connect</a>
-            <ul>
-              <li><a href="#">Contact</a></li>
-              <li><a href="#">Newsletter</a></li>
-              <li><a href="#">Linkedln</a></li>
-            </ul>
-          </li>
-        </ul>
-        <!-- add line breakier when css stialize -->
-        <button type="button" name="button">Login</button>
-        <button type="button" name="button">Sign Up</button>
-      </button>
-
+    <!-- class of pixelperfect -->
+    <div class="header">
+      <div class="responsive_menu">
+        <a class="logo" href="#"><img src="images/logo.svg" width="100" height="100" alt="Blogr"></a>
+        <!-- change navbar link to example  https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_responsive_navbar_dropdown -->
+        <!-- <div class="dropdown">
+          <button class="dropbtn">Product
+            <i class="arrow"></i>
+          </button>
+        </div>
+        <div class="dropdown-content">
+          <a href="#">Overview</a>
+          <a href="#">Pricing</a>
+          <a href="#">Marketplace</a>
+          <a href="#">Features</a>
+          <a href="#">Integrations</a>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">Company
+            <i class="arrow"></i>
+          </button>
+        </div>
+        <div class="dropdown-content">
+          <a href="#">About</a>
+          <a href="#">Team</a>
+          <a href="#">Blog</a>
+          <a href="#">Careers</a>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">Connect
+            <i class="arrow"></i>
+          </button>
+        </div>
+        <div class="dropdown-content">
+          <a href="#">Contact</a>
+          <a href="#">Newsletter</a>
+          <a href="#">Linkedln</a>
+        </div>
+add line breakier when css stialize
+        <a href="#">Login</a>
+        <a href="#">Sign Up</a> -->
+        <a href="javascript:void(0)">
+          <img src="images/icon-hamburger.svg" alt="icon" onclick="changeFunction()" id=menu_button>
+        </a>
+      </div>
+      <!-- think how to loop on click  -->
+      <script type="text/javascript">
+        function changeFunction() {
+          if (("menu_button").src = "images/icon-close.svg") {
+            document.getElementById("menu_button").src = "images/icon-hamburger.svg"
+          } else {
+            document.getElementById("menu_button").src = "images/icon-close.svg"
+          }
+        }
+      </script>
 
       <h1>A modern publishing platform</h1>
       <p>Grow your audience and build your online brand</p>
       <button type="button" name="button">Start for Free</button>
       <button type="button" name="button">Learn More</button>
-    </header>
+    </div>
     <div class="section1">
       <h2>Designed for the future</h2>
       <!-- change size of svg when css -->

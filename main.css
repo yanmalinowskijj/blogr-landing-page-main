@@ -1,10 +1,40 @@
 /* set up page */
-*{
+* {
   text-align: center;
 }
 
 body {
   font-size: 1em;
+}
+
+/* end of setup */
+
+/* header */
+
+/* learn what this mean after hamburger done */
+.header {
+  overflow: hidden;
+}
+
+/* change this after hamburger done */
+.responsive_menu {
+  margin-bottom: 200px;
+}
+.logo {
+  margin-left: 24px;
+  margin-top: 55px;
+  float: left;
+}
+
+.logo img {
+  width: 82px;
+  height: 33px;
+}
+
+#menu_button {
+  float: right;
+  margin-right: 24px;
+  margin-top: 63px;
 }
 
 /* rightnow done, but when will minimaze code back to this */
