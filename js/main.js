@@ -18,3 +18,12 @@ function changeFunction() {
     showOrHide.className = "responsive_menu";
   }
 }
+
+function showMenu() {
+  var checkClass = document.getElementsByClassName("dropbtn")[0];
+  if (checkClass.className === "dropbtn") {
+    checkClass.className += " show_icon";
+  } else {
+    checkClass.className = "dropbtn";
+  }
+}
