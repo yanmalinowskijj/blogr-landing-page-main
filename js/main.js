@@ -19,11 +19,20 @@ function changeFunction() {
   }
 }
 
-function showMenu() {
-  var checkClass = document.getElementsByClassName("dropbtn")[0];
-  if (checkClass.className === "dropbtn") {
-    checkClass.className += " show_icon";
-  } else {
-    checkClass.className = "dropbtn";
-  }
-}
+// // function showMenu() {
+// //   var checkClass = document.getElementsByClassName("dropbtn")[0];
+// //   if (checkClass.className === "dropbtn") {
+// //     checkClass.className += " show_icon";
+// //   } else {
+// //     checkClass.className = "dropbtn";
+// //   }
+//
+//   // var x = document.getElementsByClassName("dropdown_content");
+//   // if (x.style.display === "none") {
+//   //   x.style.display = "block";
+//   // } else {
+//   //   x.style.display = "none";
+//   // }
+// $(".dropbtn").click(function(){
+//   $( ".dropbtn" ).addClass( " show" )
+// });
