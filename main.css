@@ -103,7 +103,10 @@ body {
   .dropdown_content {
     display: none;
   }
-  
+
+.showMenu .dropdown_content {
+  display: block;
+}
 /* dropdown_content end */
 
 /* end */
