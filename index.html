@@ -35,20 +35,21 @@
         <a class="logo" href="#"><img src="images/logo.svg" width="100" height="100" alt="Blogr"></a>
         <!-- change navbar link to example  https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_responsive_navbar_dropdown -->
         <div class="white_zone">
-          <div class="dropdown">
-            <button onclick="showMenu()" class="dropbtn">Product
+          <div class="dropdown" id="productDropDown">
+            <button onclick="productShowMenu()" class="dropbtn">Product
               <i class="icon"></i>
             </button>
+            <div class="dropdown_content">
+              <a href="#">Overview</a>
+              <a href="#">Pricing</a>
+              <a href="#">Marketplace</a>
+              <a href="#">Features</a>
+              <a href="#">Integrations</a>
+            </div>
           </div>
-          <div class="dropdown_content">
-            <a href="#">Overview</a>
-            <a href="#">Pricing</a>
-            <a href="#">Marketplace</a>
-            <a href="#">Features</a>
-            <a href="#">Integrations</a>
-          </div>
-          <div class="dropdown">
-            <button onclick="showMenu()" class="dropbtn">Company
+
+          <div class="dropdown" id="companyDropDown">
+            <button onclick="companyShowMenu()" class="dropbtn">Company
               <i class="icon"></i>
             </button>
           </div>
@@ -58,8 +59,8 @@
             <a href="#">Blog</a>
             <a href="#">Careers</a>
           </div>
-          <div class="dropdown">
-            <button onclick="showMenu()" class="dropbtn">Connect
+          <div class="dropdown" id="connectDropDown">
+            <button onclick="connectShowMenu()" class="dropbtn">Connect
               <i class="icon"></i>
             </button>
           </div>

@@ -19,20 +19,30 @@ function changeFunction() {
   }
 }
 
-// // function showMenu() {
-// //   var checkClass = document.getElementsByClassName("dropbtn")[0];
-// //   if (checkClass.className === "dropbtn") {
-// //     checkClass.className += " show_icon";
-// //   } else {
-// //     checkClass.className = "dropbtn";
-// //   }
-//
-//   // var x = document.getElementsByClassName("dropdown_content");
-//   // if (x.style.display === "none") {
-//   //   x.style.display = "block";
-//   // } else {
-//   //   x.style.display = "none";
-//   // }
-// $(".dropbtn").click(function(){
-//   $( ".dropbtn" ).addClass( " show" )
-// });
+// kostyl try to fix later
+function productShowMenu() {
+  var showMenu = document.getElementById("productDropDown");
+  if (showMenu.className === "dropdown") {
+    showMenu.className += " showMenu"
+  } else {
+    showMenu.className = "dropdown"
+  }
+}
+
+function companyShowMenu() {
+  var showMenu2 = document.getElementById("companyDropDown");
+  if (showMenu2.className === "dropdown") {
+    showMenu2.className += " showMenu"
+  } else {
+    showMenu2.className = "dropdown"
+  }
+}
+
+function connectShowMenu() {
+  var showMenu3 = document.getElementById("connectDropDown");
+  if (showMenu3.className === "dropdown") {
+    showMenu3.className += " showMenu"
+  } else {
+    showMenu3.className = "dropdown"
+  }
+}

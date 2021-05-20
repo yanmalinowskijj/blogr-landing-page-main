@@ -75,7 +75,8 @@ body {
   border-radius: 6px;
   box-shadow: 0 0 15px 0px hsl(237, 23%, 32%);
   background-color: hsl(0, 0%, 100%);
-  opacity: 0.3;
+  /* change when menu will be done */
+  opacity: 1;
 }
 
 /* change font size when pixelperfect */
@@ -93,7 +94,7 @@ body {
   height: auto;
 }
 
-.show_icon .icon::before {
+.showMenu .icon::before {
   transform: rotate(180deg);
 }
 /* dropdown arrows end */
@@ -102,6 +103,7 @@ body {
   .dropdown_content {
     display: none;
   }
+  
 /* dropdown_content end */
 
 /* end */
