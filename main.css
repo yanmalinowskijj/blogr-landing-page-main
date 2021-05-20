@@ -11,7 +11,7 @@
     background-image: url("design/mobile-menu.jpg");
     background-repeat: no-repeat;
     background-size: 375px auto;
-    opacity: 0.5;
+    opacity: 0.7;
     top: 0; bottom: 0; left: 0; right: 0;
     position: absolute;
     z-index: -1;
@@ -75,18 +75,26 @@ body {
   border-radius: 6px;
   box-shadow: 0 0 15px 0px hsl(237, 23%, 32%);
   background-color: hsl(0, 0%, 100%);
-  /* change when menu will be done */
-  opacity: 1;
+  /* change when menu will be pixelperfect */
+  opacity: 0.3;
 }
 
-/* change font size when pixelperfect */
-.dropbtn: {
-  font-size: 1em;
-  font-family:'Ubuntu', sans-serif;
-  font-weight: 500;
+
+
+/* dropdown button */
+.dropbtn {
+  margin-top: 31px;
+  font-size: 1.125em;
+  margin-right: 4px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  color: hsl(208, 49%, 24%);
 }
 
-/* dropdown arrows */
+.showMenu .dropbtn {
+  color: hsl(206, 14%, 45%);
+}
+  /* dropdown arrows */
 .dropbtn .icon::before {
   display: inline-block;
   content: url(images/icon-arrow-dark.svg);
@@ -97,18 +105,60 @@ body {
 .showMenu .icon::before {
   transform: rotate(180deg);
 }
-/* dropdown arrows end */
+  /* dropdown arrows end */
+/* dropdown button end */
 
 /* dropdown_content */
+  .dropdown_content {
+    background-color: hsl(240, 7%, 94%);
+    margin: 26px 23px;
+  }
+
+  .dropdown_content a {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    padding-top: 24px;
+    padding-right: 2px;
+    display: block;
+    text-decoration: none;
+    color: hsl(208, 21%, 45%);
+  }
+  .dropdown_content a:last-child {
+    padding-bottom: 21px;
+  }
+
   .dropdown_content {
     display: none;
   }
 
-.showMenu .dropdown_content {
+  .showMenu .dropdown_content {
   display: block;
 }
 /* dropdown_content end */
 
+/* linebreaker  */
+  .login::before {
+    content: " ";
+    display: block;
+    height: 1px;
+    background: black;
+    margin-left: 23px;
+    margin-right: 23px;
+    margin-bottom: 33px;
+
+  }
+  #connectDropDown {
+    margin-bottom: 26px;
+  }
+/* linebreaker end */
+
+/* button login and sign up */
+  .login, .sign {
+    display: block;
+
+  }
+/* button login and sign up end */
 /* end */
 
 #menu_button {
