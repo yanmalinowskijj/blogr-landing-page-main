@@ -8,10 +8,10 @@
 
 .pixel::after {
     content: "";
-    background-image: url("design/mobile-menu.jpg");
+    background-image: url("design/mobile-design.jpg");
     background-repeat: no-repeat;
     background-size: 375px auto;
-    opacity: 0.7;
+    opacity: 0.5;
     top: 0; bottom: 0; left: 0; right: 0;
     position: absolute;
     z-index: -1;
@@ -32,13 +32,30 @@ body {
 
 /* learn what this mean after hamburger done */
 .header {
+  width: auto;
+  height: auto;
   overflow: hidden;
+  position: relative;
+  border-bottom-left-radius: 102px;
 }
 
-/* change this after hamburger done */
-.responsive_menu {
-  margin-bottom: 675px;
+.header::before {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  content: "";
+  position: absolute;
+  /* ,  left top ;0;*/
+  background-image:url("images/bg-pattern-intro.svg") ,linear-gradient(hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+  background-position: 32% 9%, left top;
+  background-size: 1000px 1000px, cover;
+  background-repeat: no-repeat;
+  opacity: 1;
 }
+/* change this after hamburger done */
+
 .logo {
   margin-left: 24px;
   margin-top: 55px;
@@ -76,7 +93,6 @@ body {
   box-shadow: 0 0 15px 0px hsl(237, 23%, 32%);
   background-color: hsl(0, 0%, 100%);
   /* change when menu will be pixelperfect */
-  opacity: 1;
 }
 
 
@@ -188,5 +204,11 @@ body {
   position: relative;
 }
 
+/* headerContent */
+  .headerContent {
+    margin-top: 200px;
+    margin-bottom: 255px;
+  }
+/* headerContent end */
 
 /* rightnow done, but when will minimaze code back to this */
