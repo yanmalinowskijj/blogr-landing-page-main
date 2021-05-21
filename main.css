@@ -281,7 +281,7 @@ body {
 .section1::after {
   content: "";
   width: 100%;
-  height: 100%;
+  height: 35%;
   top: 107.5%;
   left: -1%;
   position: absolute;
