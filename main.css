@@ -76,7 +76,7 @@ body {
   box-shadow: 0 0 15px 0px hsl(237, 23%, 32%);
   background-color: hsl(0, 0%, 100%);
   /* change when menu will be pixelperfect */
-  opacity: 0.4;
+  opacity: 1;
 }
 
 
@@ -164,6 +164,22 @@ body {
     font-weight: 700;
     font-size: 1em;
     color: hsl(208, 21%, 45%);
+
+  }
+
+  .sign {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    color: hsl(180, 100%, 100%);
+    background-image: linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+    margin-top: 21px;
+    padding-top: 19px;
+    margin-left: 94px;
+    margin-right: 94px;
+    padding-bottom: 14px;
+    border-radius: 46px;
+    margin-bottom: 30px;
   }
 /* button login and sign up end */
 /* end */
