@@ -11,7 +11,7 @@
     background-image: url("design/mobile-design.jpg");
     background-repeat: no-repeat;
     background-size: 375px auto;
-    opacity: 0.5;
+    opacity: 0;
     top: 0; bottom: 0; left: 0; right: 0;
     position: absolute;
     z-index: -1;
@@ -60,7 +60,7 @@ body {
 
   .headerContent {
     margin-top: 200px;
-    margin-bottom: 214px;
+    margin-bottom: 157px;
     font-family: 'Overpass', sans-serif;
   }
 
@@ -73,7 +73,29 @@ body {
 }
 
 .headerContent p {
-  font-size: 18px;
+  font-size: 1.125em;
+  margin-bottom: 48px;
+}
+
+.headerContent button {
+  border: 1px solid hsl(180, 100%, 99%);
+  font-weight: 700;
+  text-align: center;
+  border-radius: 36px;
+}
+
+.headerContent button:hover {
+  background-color: hsl(180, 100%, 99%);
+  color: hsl(357, 100%, 66%);
+}
+.free {
+  padding: 13px 20px;
+  margin-right: 12px;
+  background-color: hsl(180, 100%, 99%);
+  color: hsl(357, 100%, 66%);
+}
+.learn {
+  padding: 13px 25px;
 }
 /* headerContent end */
 
