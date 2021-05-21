@@ -76,7 +76,7 @@ body {
   box-shadow: 0 0 15px 0px hsl(237, 23%, 32%);
   background-color: hsl(0, 0%, 100%);
   /* change when menu will be pixelperfect */
-  opacity: 0.3;
+  opacity: 0.4;
 }
 
 
@@ -156,7 +156,14 @@ body {
 /* button login and sign up */
   .login, .sign {
     display: block;
-
+    text-decoration: none;
+  }
+  .login {
+    margin-right: 4px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    color: hsl(208, 21%, 45%);
   }
 /* button login and sign up end */
 /* end */
