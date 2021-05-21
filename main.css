@@ -26,14 +26,14 @@ body {
   font-size: 1em;
 }
 
-/* end of setup */
+/* set up page end */
 
 /* header */
 
 .header {
   width: auto;
   height: auto;
-  overflow: hidden; /* learn what this mean after hamburger done */
+  overflow: hidden;
   border-bottom-left-radius: 102px;
   color: hsl(300, 100%, 100%);
   background-image:url("images/bg-pattern-intro.svg") ,linear-gradient(hsl(13, 100%, 72%), hsl(353, 100%, 62%));
@@ -48,7 +48,7 @@ body {
     margin-top: 200px;
     margin-bottom: 157px;
     font-family: 'Overpass', sans-serif;
-  }
+}
 
 .headerContent h1 {
   letter-spacing: 0.002px;
@@ -85,7 +85,7 @@ body {
 }
 /* headerContent end */
 
-/* change this after hamburger done */
+
 .logo {
   margin-left: 24px;
   margin-top: 55px;
@@ -101,6 +101,7 @@ body {
   float: right;
   margin-right: 24px;
   margin-top: 63px;
+  position: relative;
 }
 
 /* for js show and hide menu */
@@ -110,7 +111,7 @@ body {
 .show .white_zone {
   display: block;
 }
-/* end */
+/* for js show and hide menu end */
 
 /* style full menu */
 .white_zone {
@@ -125,8 +126,6 @@ body {
   /* change when menu will be pixelperfect */
 }
 
-
-
 /* dropdown button */
 .dropbtn {
   margin-top: 31px;
@@ -140,6 +139,7 @@ body {
 .showMenu .dropbtn {
   color: hsl(206, 14%, 45%);
 }
+
   /* dropdown arrows */
 .dropbtn .icon::before {
   display: inline-block;
@@ -177,10 +177,11 @@ body {
   .dropdown_content {
     display: none;
   }
-
+  /* for js show and hide */
   .showMenu .dropdown_content {
   display: block;
 }
+  /* for js show and hide end */
 /* dropdown_content end */
 
 /* linebreaker  */
@@ -189,13 +190,10 @@ body {
     display: block;
     height: 1px;
     background: hsl(0, 0%, 91%);
+    margin-top: 26px;
     margin-left: 23px;
     margin-right: 23px;
     margin-bottom: 33px;
-
-  }
-  #connectDropDown {
-    margin-bottom: 26px;
   }
 /* linebreaker end */
 
@@ -210,7 +208,6 @@ body {
     font-weight: 700;
     font-size: 1em;
     color: hsl(208, 21%, 45%);
-
   }
 
   .sign {
@@ -230,12 +227,7 @@ body {
 /* button login and sign up end */
 /* end */
 
-#menu_button {
-  position: relative;
-}
-
 /* section1 */
-  /* hsl(211, 43%, 24%); color for h  */
 .section1 h2 {
   margin-top: 104px;
   font-family: 'Overpass', sans-serif;
