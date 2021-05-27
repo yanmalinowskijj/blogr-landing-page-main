@@ -110,6 +110,7 @@ body {
 }
 .show .white_zone {
   display: block;
+  z-index: 1;
 }
 /* for js show and hide menu end */
 
@@ -281,7 +282,45 @@ body {
   background-repeat: no-repeat;
   background-size: 102%;
 }
-
 /* section1 end */
 
+/* section2 */
+.section2 {
+  background-image: url("images/bg-pattern-circles.svg");
+  background-color: hsl(238, 21%, 29%);
+  background-position: calc(100% + 116px) calc(100% - 258px);
+  background-size: 600px 600px;
+  background-repeat: no-repeat;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+}
+
+.section2 h2 {
+  padding-top: 225px;
+  word-spacing: -3px;
+  line-height: 49px;
+  letter-spacing: 0px;
+  color: hsl(60, 100%, 100%);
+  font-family: 'Overpass', sans-serif;
+  font-weight: 600;
+  font-size: 39px;
+  margin-bottom: 0px;
+}
+
+.section2 p {
+  	color: hsl(180, 100%, 99%);
+    font-family: 'Overpass', sans-serif;
+    font-weight: 300;
+    margin-top: 19px;
+    padding-bottom: 114px;
+    line-height: 28px;
+    word-spacing: 4px;
+}
+/* section2 end */
+
+/* section3 */
+  .sectin3 img {
+    
+  }
+/* section3 end*/
 /* rightnow done, but when will minimaze code back to this */
