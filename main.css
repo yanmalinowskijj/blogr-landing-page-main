@@ -349,4 +349,40 @@ body {
   }
 /* section3 end*/
 
+/* footer */
+.footer {
+  padding-bottom: 278px;
+  border-top-right-radius: 100px;
+  margin-top: 96px;
+  background-color: green;
+  background-color: hsl(240, 10%, 16%);
+}
+
+.logo_footer img {
+  margin-top: 75px;
+}
+
+.footer li a {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+  color: hsl(180, 100%, 100%);
+}
+
+.li_big {
+  margin-top: 76px;
+  display: block;
+  margin-bottom: 33px;
+}
+.footer_content li {
+  margin-bottom: 13px;
+}
+.footer ul {
+  display: block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+}
+
+/* footer end */
 /* rightnow done, but when will minimaze code back to this */
