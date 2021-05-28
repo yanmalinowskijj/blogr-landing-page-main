@@ -238,11 +238,12 @@ body {
 }
 
 .section1 img {
-  margin-top: 23px;
-  height: auto;
-  width: 100%;
-  margin-left: -30px;
   margin-bottom: 19px;
+  max-width: 100%;
+  height: 100%;
+  margin-left: -30px;
+  margin-top: 24px;
+  object-fit: none;
 }
 
 .section1 h3 {
@@ -261,7 +262,7 @@ body {
   line-height: 28px;
   color: 	hsl(208, 8%, 33%);
   font-family: 'Ubuntu', sans-serif;
-  margin-bottom: 45px;
+  margin-bottom: 43px;
 }
 
 .section1 .nice_margins {
@@ -291,11 +292,12 @@ body {
   background-image: url(images/illustration-phones.svg);
   background-repeat: no-repeat;
   top: -186px;
-  left: -2px;
   background-size: 101%;
   width: 100%;
   height: 100%;
   position: absolute;
+  left: 50%;
+  transform: translateX(-51%);
 }
 .section2 h2 {
   /* padding-top: 225px; */
@@ -357,7 +359,6 @@ body {
   padding-bottom: 78px;
   border-top-right-radius: 100px;
   margin-top: 96px;
-  background-color: green;
   background-color: hsl(240, 10%, 16%);
 }
 
@@ -399,6 +400,26 @@ body {
       margin-left: 5%;
       margin-right: 5%;
     }
+    .section2::before {
+      top: -34%;
+      width: 75%;
+    }
+  }
 
+  @media screen and (min-width: 768px){
+    .section2 h2 {
+      padding-top: 46%;
+    }
+    .block {
+      display: inline-block;
+      vertical-align: text-top;
+      width: 31%;
+    }
+    .li_big {
+      margin-top: 0px;
+    }
+    .logo_footer img {
+        margin-bottom: 50px;
+    }
   }
 /* --------------------- adaptation for bigger screens end ---------------------- */
