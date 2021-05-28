@@ -29,126 +29,126 @@
 
 <body>
   <!-- class of pixelperfect -->
-  <!-- <div class="pixel"> -->
-  <div class="header">
-    <div class="responsive_menu" id="mobile_menu">
-      <a class="logo" href="#"><img src="images/logo.svg" width="100" height="100" alt="Blogr"></a>
-      <!-- change navbar link to example  https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_responsive_navbar_dropdown -->
-      <div class="white_zone">
-        <div class="dropdown" id="productDropDown">
-          <button onclick="productShowMenu()" class="dropbtn">Product
-            <i class="icon"></i>
-          </button>
-          <div class="dropdown_content">
-            <a href="#">Overview</a>
-            <a href="#">Pricing</a>
-            <a href="#">Marketplace</a>
-            <a href="#">Features</a>
-            <a href="#">Integrations</a>
+  <div class="pixel">
+    <div class="header">
+      <div class="responsive_menu" id="mobile_menu">
+        <a class="logo" href="#"><img src="images/logo.svg" width="100" height="100" alt="Blogr"></a>
+        <!-- change navbar link to example  https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_responsive_navbar_dropdown -->
+        <div class="white_zone">
+          <div class="dropdown" id="productDropDown">
+            <button onclick="productShowMenu()" class="dropbtn">Product
+              <i class="icon"></i>
+            </button>
+            <div class="dropdown_content">
+              <a href="#">Overview</a>
+              <a href="#">Pricing</a>
+              <a href="#">Marketplace</a>
+              <a href="#">Features</a>
+              <a href="#">Integrations</a>
+            </div>
           </div>
-        </div>
 
-        <div class="dropdown" id="companyDropDown">
-          <button onclick="companyShowMenu()" class="dropbtn">Company
-            <i class="icon"></i>
-          </button>
-          <div class="dropdown_content">
-            <a href="#">About</a>
-            <a href="#">Team</a>
-            <a href="#">Blog</a>
-            <a href="#">Careers</a>
+          <div class="dropdown" id="companyDropDown">
+            <button onclick="companyShowMenu()" class="dropbtn">Company
+              <i class="icon"></i>
+            </button>
+            <div class="dropdown_content">
+              <a href="#">About</a>
+              <a href="#">Team</a>
+              <a href="#">Blog</a>
+              <a href="#">Careers</a>
+            </div>
           </div>
-        </div>
 
-        <div class="dropdown" id="connectDropDown">
-          <button onclick="connectShowMenu()" class="dropbtn">Connect
-            <i class="icon"></i>
-          </button>
-          <div class="dropdown_content">
-            <a href="#">Contact</a>
-            <a href="#">Newsletter</a>
-            <a href="#">Linkedln</a>
+          <div class="dropdown" id="connectDropDown">
+            <button onclick="connectShowMenu()" class="dropbtn">Connect
+              <i class="icon"></i>
+            </button>
+            <div class="dropdown_content">
+              <a href="#">Contact</a>
+              <a href="#">Newsletter</a>
+              <a href="#">Linkedln</a>
+            </div>
           </div>
-        </div>
 
-        <!-- add line breakier when css stialize -->
-        <a class="login" href="#">Login</a>
-        <a class="sign" href="#">Sign Up</a>
+          <!-- add line breakier when css stialize -->
+          <a class="login" href="#">Login</a>
+          <a class="sign" href="#">Sign Up</a>
+        </div>
+        <a href="javascript:void(0)">
+          <img src="images/icon-hamburger.svg" alt="icon" onclick="changeFunction()" id=menu_button>
+        </a>
       </div>
-      <a href="javascript:void(0)">
-        <img src="images/icon-hamburger.svg" alt="icon" onclick="changeFunction()" id=menu_button>
-      </a>
+      <div class="headerContent">
+        <h1>A modern<br>publishing platform</h1>
+        <p>Grow your audience and build your<br>online brand</p>
+        <button class="free" type="button" name="button">Start for Free</button>
+        <button class="learn" type="button" name="button">Learn More</button>
+      </div>
     </div>
-    <div class="headerContent">
-      <h1>A modern<br>publishing platform</h1>
-      <p>Grow your audience and build your<br>online brand</p>
-      <button class="free" type="button" name="button">Start for Free</button>
-      <button class="learn" type="button" name="button">Learn More</button>
+    <div class="section1">
+      <h2>Designed for the future</h2>
+      <!-- change size of svg when css -->
+      <img src="images/illustration-editor-mobile.svg" alt="illustration">
+      <h3>Introducing an<br>extensible editor</h3>
+      <p>Blogr features an exceedingly intuitive<br>interface which lets you focus
+        on one<br>thing: creating content. The editor<br>supports management
+        of multiple blogs<br>and allows easy manipulation of embeds<br>such as imges,
+        videos, and Markdown.<br>Extensibility with plugins and themes<br>provide
+        easy ways to add functionality or<br>change the looks of a blog.</p>
+      <h3 class="nice_margins">Robust content<br>management</h3>
+      <p>Flexible content management enables<br>users to easily move through posts.<br>
+        Increase the usability of your blog by<br>adding customized categories, sections,<br>format
+        ,or flow. With this functionality,<br>you're in full control.</p>
+      <!-- add 2 images to after when css -->
     </div>
+    <div class="section2">
+      <h2>State of the Art<br> Infrastructure</h2>
+      <p>With reliability and speed in mind,<br> worldwide data centers provide the<br>
+        backbone for ultra-fast connectivity. This<br> ensures your site will load instantly,
+        no<br> matter where your readers are, keeping<br> your site competitive.</p>
+    </div>
+    <div class="section3">
+      <img src="images/illustration-laptop-mobile.svg" alt="laptop">
+      <h3>Free, open, simple</h3>
+      <p>Blogr is a free and open source<br> application backed by a large
+        community<br> of helpful developers. It supports features<br> such as code syntax
+        highlighting, RSS<br> feeds, social media integration, third-<br>party commenting tools, and works<br> seamlessly with Google Analytics.
+        The<br> architecture is clean and is relatively easy<br> to learn.</p>
+      <h3>Powerful tooling</h3>
+      <p>Batteries included. We built a simple and<br> straightforward CLI tool that makes<br>
+        customization and deployment a breeze,<br> but capable of producing even the most<br> complicated sites.</p>
+    </div>
+    <footer class="footer">
+      <a class="logo_footer" href="#"><img src="images/logo.svg" alt="Blogr"></a>
+      <ul class="move_footer">
+        <li><a class="li_big" style=" font-size: 18px;" href="#">Product</a>
+          <ul class="footer_content">
+            <li><a href="#">Overview</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Marketplace</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Integrations</a></li>
+          </ul>
+        </li>
+        <li><a class="li_big" style="font-size: 18px;" href="#">Company</a>
+          <ul class="footer_content">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </li>
+        <li><a class="li_big" style=" font-size: 18px;" href="#">Connect</a>
+          <ul class="footer_content">
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Newsletter</a></li>
+            <li><a href="#">Linkedln</a></li>
+          </ul>
+        </li>
+      </ul>
+    </footer>
   </div>
-  <div class="section1">
-    <h2>Designed for the future</h2>
-    <!-- change size of svg when css -->
-    <img src="images/illustration-editor-mobile.svg" alt="illustration">
-    <h3>Introducing an<br>extensible editor</h3>
-    <p>Blogr features an exceedingly intuitive<br>interface which lets you focus
-      on one<br>thing: creating content. The editor<br>supports management
-      of multiple blogs<br>and allows easy manipulation of embeds<br>such as imges,
-      videos, and Markdown.<br>Extensibility with plugins and themes<br>provide
-      easy ways to add functionality or<br>change the looks of a blog.</p>
-    <h3 class="nice_margins">Robust content<br>management</h3>
-    <p>Flexible content management enables<br>users to easily move through posts.<br>
-      Increase the usability of your blog by<br>adding customized categories, sections,<br>format
-      ,or flow. With this functionality,<br>you're in full control.</p>
-    <!-- add 2 images to after when css -->
-  </div>
-  <div class="section2">
-    <h2>State of the Art<br>Infrastructure</h2>
-    <p>With reliability and speed in mind,<br> worldwide data centers provide the<br>
-      backbone for ultra-fast connectivity. This<br> ensures your site will load instantly,
-      no<br> matter where your readers are, keeping<br> your site competitive.</p>
-  </div>
-  <div class="section3">
-    <img src="images/illustration-laptop-mobile.svg" alt="laptop">
-    <h3>Free, open, simple</h3>
-    <p>Blogr is a free and open source<br> application backed by a large
-      community<br> of helpful developers. It supports features<br> such as code syntax
-      highlighting, RSS<br> feeds, social media integration, third-<br>party commenting tools, and works<br> seamlessly with Google Analytics.
-      The<br> architecture is clean and is relatively easy<br> to learn.</p>
-    <h3>Powerful tooling</h3>
-    <p>Batteries included. We built a simple and<br> straightforward CLI tool that makes<br>
-      customization and deployment a breeze,<br> but capable of producing even the most<br> complicated sites.</p>
-  </div>
-  <footer class="footer">
-    <a class="logo_footer" href="#"><img src="images/logo.svg" alt="Blogr"></a>
-    <ul class="move_footer">
-      <li><a class="li_big" style=" font-size: 18px;" href="#">Product</a>
-        <ul class="footer_content">
-          <li><a href="#">Overview</a></li>
-          <li><a href="#">Pricing</a></li>
-          <li><a href="#">Marketplace</a></li>
-          <li><a href="#">Features</a></li>
-          <li><a href="#">Integrations</a></li>
-        </ul>
-      </li>
-      <li><a class="li_big" style="font-size: 18px;" href="#">Company</a>
-        <ul class="footer_content">
-          <li><a href="#">About</a></li>
-          <li><a href="#">Team</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Careers</a></li>
-        </ul>
-      </li>
-      <li><a class="li_big" style=" font-size: 18px;" href="#">Connect</a>
-        <ul class="footer_content">
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Newsletter</a></li>
-          <li><a href="#">Linkedln</a></li>
-        </ul>
-      </li>
-    </ul>
-  </footer>
-  <!-- </div> -->
   <script type="text/javascript" src="http://localhost:35729/livereload.js"></script>
 </body>
 
