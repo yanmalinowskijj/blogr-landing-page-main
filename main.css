@@ -17,6 +17,24 @@
     z-index: -1;
   } */
 
+  /* pixel perfect static */
+  .pixel {
+    width: auto;
+    height: auto;
+    position:relative;
+  }
+
+  .pixel::after {
+      content: "";
+      background-image: url("design/desktop-design.jpg");
+      background-repeat: no-repeat;
+      background-size: 1440px auto;
+      opacity: 0.7;
+      top: 0; bottom: 0; left: 0; right: 0;
+      position: absolute;
+      z-index: -1;
+    }
+
 /* set up page */
 * {
   text-align: center;
@@ -31,6 +49,7 @@ body {
 /* header */
 
 .header {
+  opacity: 0.5;
   width: auto;
   height: auto;
   overflow: hidden;
@@ -40,7 +59,6 @@ body {
   background-position: 32% 9%, left top;
   background-size: 1000px 1000px, cover;
   background-repeat: no-repeat;
-  opacity: 1;
 }
 
 /* headerContent */
