@@ -422,4 +422,13 @@ body {
         margin-bottom: 50px;
     }
   }
+
+  @media screen and (min-width: 897px) {
+    .section2::before {
+      width: 60%;
+    }
+    .section2 h2 {
+      padding-top: 40%;
+    }
+  }
 /* --------------------- adaptation for bigger screens end ---------------------- */
