@@ -22,7 +22,7 @@
 
   <!-- js -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script type="text/javascript" src="js/main.js"></script>
+
 
   <title>test</title>
 </head>
@@ -72,10 +72,12 @@
           </div>
 
           <!-- add line breakier when css stialize -->
-          <a class="login" href="#">Login</a>
-          <a class="sign" href="#">Sign Up</a>
+          <div class="connect_buttons">
+            <a class="login" href="#">Login</a>
+            <a class="sign" href="#">Sign Up</a>
+          </div>
         </div>
-        <a href="javascript:void(0)">
+        <a class="humburger" href="javascript:void(0)">
           <img src="images/icon-hamburger.svg" alt="icon" onclick="changeFunction()" id=menu_button>
         </a>
       </div>
@@ -149,6 +151,7 @@
       </ul>
     </div>
   </div>
+  <script type="text/javascript" src="js/main.js"></script>
   <script type="text/javascript" src="http://localhost:35729/livereload.js"></script>
 </body>
 

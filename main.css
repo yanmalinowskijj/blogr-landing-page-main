@@ -7,7 +7,7 @@
 
 .pixel::after {
     content: "";
-    background-image: url("design/mobile-design.jpg");
+    background-image: url("design/mobile-menu.jpg");
     background-repeat: no-repeat;
     background-size: 375px auto;
     opacity: 0.7;
@@ -24,7 +24,7 @@
 
 .pixel::after {
   content: "";
-  background-image: url("design/desktop-design.jpg");
+  background-image: url("design/active-states.jpg");
   background-repeat: no-repeat;
   background-size: 1440px auto;
   opacity: 0.7;
@@ -48,7 +48,7 @@ body {
 /* set up page end */
 /* header */
 .header {
-  opacity: 0.5;
+  opacity: 1;
   width: auto;
   height: auto;
   overflow: hidden;
@@ -464,3 +464,136 @@ body {
 }
 
 /* --------------------- adaptation for bigger screens end ---------------------- */
+@media screen and (min-width: 1440px) {
+  /* navbar */
+  .responsive_menu {
+      margin-top: 4.1%;
+  }
+  .logo {
+    margin-left: 11.5%;
+    margin-top: 6px;
+    float: left;
+    margin-right: 37px;
+  }
+  .logo img {
+    width: 103px;
+    height: 38px;
+  }
+  .humburger {
+    display: none;
+  }
+  .responsive_menu .white_zone {
+    display: block;
+  }
+  .white_zone {
+    min-width: 1000px;
+    float: left;
+    position: static;
+    background-color: hsla(120, 100%, 50%, 0); /* just random color with opacity 0 */
+    box-shadow: none;
+  }
+  .dropdown {
+    height: auto;
+    float: left;
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropbtn {
+    padding-bottom: 35px;
+    font-size: 1em;
+    margin-top: 16px;
+    margin-right: 32px;
+    color: hsl(8, 100%, 91%);
+  }
+  .giemor button {
+    color: hsl(20, 100%, 96%);
+    text-decoration: underline;
+  }
+  .giemor .icon::before {
+    transform: rotate(180deg);
+  }
+  .dropbtn:hover {
+    cursor: pointer;
+    color: hsl(20, 100%, 96%);
+    text-decoration: underline;
+  }
+  .dropbtn:hover + .dropdown_content {
+    display: block;
+  }
+  .dropdown_content:hover {
+    display: block;
+  }
+  .dropbtn:hover .icon::before {
+    transform: rotate(180deg);
+  }
+  .dropbtn .icon::before {
+    content: url(images/icon-arrow-light.svg);
+  }
+
+  .dropdown_content {
+    top: 35px;
+
+    border-radius: 6px;
+    position: absolute;
+    width: 170px;
+    left: -42%;
+  }
+  .dropdown_content a {
+    font-weight: normal;
+    margin-left: 25px;
+    text-align: left;
+    margin-top: 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .dropdown_content a:hover {
+    font-weight: bold;
+  }
+  .dropdown_content a:first-child {
+    padding-top: 19px;
+  }
+  .dropdown_content a:last-child {
+    padding-bottom: 32px;
+  }
+  .icon {
+    margin-left: 3px;
+  }
+
+  .showMenu .dropbtn {
+    color: hsl(20, 100%, 96%);
+  }
+  .login::before {
+    display: none;
+  }
+  /* buttons ideas
+  add div to group 2 buttons, but after in adaptation add command to not show this class also check mobile version when static buttons will be done */
+  .connect_buttons {
+    float: right;
+    margin-right: 30px;
+    margin-right: 53px;
+  }
+  .login, .sign {
+    display: inline-block;
+    margin: 0px;
+  }
+  .login {
+    padding-top: 15px;
+    color: hsl(3, 100%, 91%);
+  }
+  .sign {
+    /* change margin after login hover will be done */
+    margin-left: 28px;
+
+    background-color: hsl(0, 0%, 100%);
+    padding: 15px 38px 15px 41px;
+    background-image: none;
+    color: hsl(356, 71%, 62%);
+  }
+  .sign:hover {
+    background-color: hsl(354, 96%, 73%);
+    color: hsl(21, 100%, 97%);
+  }
+
+  /* navbar end */
+}
