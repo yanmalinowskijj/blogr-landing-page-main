@@ -600,4 +600,19 @@ body {
   }
 
   /* navbar end */
+  /* header stile for h, p */
+  .headerContent br {
+    display: none;
+  }
+  .headerContent h1 {
+    word-spacing: -3px;
+    margin-left: 21px;
+    margin-top: 250px;
+    font-size: 3.8125em;
+  }
+  .headerContent p {
+    margin-top: 33px;
+    word-spacing: 7px;
+    margin-left: 17px;
+  }
 }
