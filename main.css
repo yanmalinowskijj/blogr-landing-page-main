@@ -87,7 +87,7 @@ body {
   border-radius: 36px;
 }
 
-.headerContent button:hover {
+.learn:hover {
   background-color: hsl(180, 100%, 99%);
   color: hsl(357, 100%, 66%);
 }
@@ -643,22 +643,23 @@ body {
     margin-left: 15px;
   }
 
-  /* header buttons free learn */
+  /* header buttons  */
   .free {
-    font-weight: bold;
-    opacity: 0.6;
-    margin-right: 0px;
+    margin-left: 14px;
     padding-left: 14px;
     padding-right: 14px;
     padding-top: 16px;
     padding-bottom: 10px;
-    /* margin-left: 2px; */
-    word-spacing: 4px;
+    word-spacing: 6px;
+
   }
   /* free time ended here somehowe hover do not work */
   .free:hover {
-    background-color: green;
+    background-color: hsl(354, 100%, 74%);
     color: 	hsl(345, 100%, 98%);
+    border-color: transparent;
   }
-  .learn {}
+  .learn {
+
+  }
 }
