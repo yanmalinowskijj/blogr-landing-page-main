@@ -662,4 +662,7 @@ body {
   .learn {
 
   }
+  .free, .learn {
+    cursor: pointer;
+  }
 }
