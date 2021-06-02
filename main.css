@@ -465,6 +465,10 @@ body {
 
 /* --------------------- adaptation for bigger screens end ---------------------- */
 @media screen and (min-width: 1440px) {
+  /* header */
+  .header {
+    opacity: 0.5;
+  }
   /* navbar */
   .responsive_menu {
       margin-top: 4.1%;
@@ -473,7 +477,6 @@ body {
     margin-left: 11.5%;
     margin-top: 6px;
     float: left;
-    margin-right: 37px;
   }
   .logo img {
     width: 103px;
@@ -487,9 +490,10 @@ body {
   }
   .white_zone {
     min-width: 1000px;
-    float: left;
+    float: right;
     position: static;
     background-color: hsla(120, 100%, 50%, 0); /* just random color with opacity 0 */
+    margin: 0px 0px;
     box-shadow: none;
   }
   .dropdown {
@@ -570,8 +574,8 @@ body {
   add div to group 2 buttons, but after in adaptation add command to not show this class also check mobile version when static buttons will be done */
   .connect_buttons {
     float: right;
-    margin-right: 30px;
-    margin-right: 53px;
+    margin-right: 144px;
+    margin-left: 396px;
   }
   .login, .sign {
     display: inline-block;
