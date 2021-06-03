@@ -347,14 +347,16 @@ body {
 
 /* section2 end */
 /* section3 */
-.section3 {}
 
-.section3 img {
+.illustration-laptop-mobile {
   max-width: 100%;
   height: 100%;
   margin-top: 45px;
   object-fit: none;
   margin-bottom: 8px;
+}
+.illustration-laptop-desktop {
+  display: none;
 }
 
 .section3 h3 {
@@ -729,11 +731,7 @@ body {
   /* section 1 end */
 
   /* section2 */
-
-  /* delete opacity after pixel perfect  */
-  /* add gradient from left to rigth 	hsl(237, 18%, 23%) 	hsl(235, 23%, 31%) */
   .section2 {
-    /* gradient - ,*/
     background-color: hsla(235, 23%, 31%, 0);
     background-image: url("images/bg-pattern-circles.svg"), linear-gradient(to right, hsl(237, 18%, 23%) 0%, hsl(235, 23%, 32%) 100%);
     background-size: 1000px 1000px, 100%;
@@ -770,4 +768,39 @@ body {
     padding-bottom: 88px;
   }
   /* section2 end */
+
+  /* section3 */
+  .section3 {
+    overflow: hidden;
+    /* delete height after image and text done */
+    clear: left;
+    position: relative;
+  }
+  .illustration-laptop-mobile {
+    display: none;
+  }
+  .illustration-laptop-desktop {
+      display: block;
+      position: absolute;
+      left: -279px;
+      top: 117px;
+  }
+  .section3-controlled-width {
+    padding-bottom: 130px;
+    padding-top: 279px;
+    width: 50%;
+    float: right;
+  }
+  .section3 h3 {
+    padding-left: 0px;
+    margin-left: 24px;
+    text-align: left;
+  }
+  .section3 p {
+    width: 510px;
+    padding-left: 0px;
+    margin-left: 24px;
+    text-align: left;
+    padding-bottom: 34px;
+  }
 }
