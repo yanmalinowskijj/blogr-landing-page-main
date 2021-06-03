@@ -411,7 +411,6 @@ body {
 .footer ul {
   display: block;
   list-style-type: none;
-  margin: 0;
   padding: 0px;
 }
 
@@ -820,7 +819,24 @@ body {
     margin-top: 70px;
   }
   .move_footer {
-    width: 80%;
+    margin-top: 76px;
+    width: 76.5%;
     float: right;
+    padding-right: 20px;
   }
+  .move_footer li {
+    text-align: left;
+
+  }
+  .li_big {
+    margin-bottom: 38px;
+    font-size: 15px!important;
+    text-align: left;
+  }
+  .block {
+    margin-right: 204px;
+    font-size: 15px;
+    width: auto;
+  }
+
 }
