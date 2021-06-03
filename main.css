@@ -803,4 +803,24 @@ body {
     text-align: left;
     padding-bottom: 34px;
   }
+  /* section3 end*/
+
+  /* footer */
+  .footer {
+    height: 281px;
+    clear: left;
+    opacity: 0.5;
+  }
+  .logo_footer {
+    padding-left: 152px;
+    width: 9%;
+    float: left;
+  }
+  .logo_footer img {
+    margin-top: 70px;
+  }
+  .move_footer {
+    width: 80%;
+    float: right;
+  }
 }
