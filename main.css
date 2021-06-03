@@ -724,7 +724,7 @@ body {
    margin-left: 4px;
  }
  .move_bottom {
-   padding-bottom: 186px;
+   padding-bottom: 219px;
  }
   /* section 1 end */
 
@@ -733,13 +733,35 @@ body {
   /* delete opacity after pixel perfect  */
   .section2 {
     opacity: 0.5;
+    float: left;
   }
   .section2::before {
     top: -70px;
     left: 123px;
     width: 550px;
+    height: 525px;
     transform: translateX(0);
   }
 
+  .section2 h2 {
+    padding-top: 82px;
+    text-align: left;
+    /* will be good to read after about negative values in spacing */
+    letter-spacing: -0.5px;
+    word-spacing: -1px;
+  }
+
+  .section2 p {
+    width: 532px;
+    text-align: left;
+    padding-left: 0px;
+    margin-left: 0px;
+    padding-bottom: 0px;
+  }
+  .section2-controlled-width {
+    width: 48.5%;
+    float: right;
+    padding-bottom: 88px;
+  }
   /* section2 end */
 }
