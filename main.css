@@ -27,7 +27,7 @@
   background-image: url("design/desktop-design.jpg");
   background-repeat: no-repeat;
   background-size: 1440px auto;
-  opacity: 0.7;
+  opacity: 0.9;
   top: 0;
   bottom: 0;
   left: 0;
@@ -731,9 +731,15 @@ body {
   /* section2 */
 
   /* delete opacity after pixel perfect  */
+  /* add gradient from left to rigth 	hsl(237, 18%, 23%) 	hsl(235, 23%, 31%) */
   .section2 {
-    opacity: 0.5;
+    /* gradient - ,*/
+    background-color: hsla(235, 23%, 31%, 0);
+    background-image: url("images/bg-pattern-circles.svg"), linear-gradient(to right, hsl(237, 18%, 23%) 0%, hsl(235, 23%, 32%) 100%);
+    background-size: 1000px 1000px, 100%;
+    background-position: -202px -495px, 0 0;
     float: left;
+    border-top-right-radius: 77px;
   }
   .section2::before {
     top: -70px;
@@ -755,7 +761,7 @@ body {
     width: 532px;
     text-align: left;
     padding-left: 0px;
-    margin-left: 0px;
+    margin-left: 3px;
     padding-bottom: 0px;
   }
   .section2-controlled-width {
