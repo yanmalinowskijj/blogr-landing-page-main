@@ -1,5 +1,5 @@
 /* adding backgroung for pixelperfect with opacity 50% */
-/* .pixel {
+.pixel {
   width: auto;
   height: auto;
   position:relative;
@@ -7,16 +7,16 @@
 
 .pixel::after {
     content: "";
-    background-image: url("design/mobile-menu.jpg");
+    background-image: url("design/mobile-design.jpg");
     background-repeat: no-repeat;
     background-size: 375px auto;
     opacity: 0.7;
     top: 0; bottom: 0; left: 0; right: 0;
     position: absolute;
     z-index: -1;
-  } */
+  }
 /* pixel perfect static */
-.pixel {
+/* .pixel {
   width: auto;
   height: auto;
   position: relative;
@@ -34,7 +34,7 @@
   right: 0;
   position: absolute;
   z-index: -1;
-}
+} */
 
 /* set up page */
 * {
@@ -67,7 +67,7 @@ body {
 }
 
 .headerContent h1 {
-  letter-spacing: 0.002px;
+  letter-spacing: -1px;
   font-weight: 700;
   font-size: 2.25em;
   line-height: 45px;
@@ -75,8 +75,10 @@ body {
 }
 
 .headerContent p {
+  margin-top: 16px;
+  line-height: 22px;
   font-size: 1.125em;
-  margin-bottom: 48px;
+  margin-bottom: 46px;
 }
 
 .headerContent button {
@@ -250,6 +252,7 @@ body {
 /* button login and sign up end */
 /* end */
 /* section1 */
+
 .section1 h2 {
   margin-top: 104px;
   font-family: 'Overpass', sans-serif;
@@ -265,6 +268,10 @@ body {
   margin-left: -30px;
   margin-top: 24px;
   object-fit: none;
+}
+
+.illustration-editor-desktop {
+  display: none;
 }
 
 .section1 h3 {
@@ -467,9 +474,6 @@ body {
 @media screen and (min-width: 1440px) {
 
   /* header start */
-  .header {
-    opacity: 0.5;
-  }
 
   /* navbar */
   .responsive_menu {
@@ -688,6 +692,7 @@ body {
  }
  .illustration-editor-desktop {
    position: absolute;
+   display: block;
    /* transform for %  */
    right: -291px;
    top: 71px;
@@ -808,7 +813,7 @@ body {
   .footer {
     height: 281px;
     clear: left;
-    opacity: 0.5;
+
   }
   .logo_footer {
     padding-left: 152px;
