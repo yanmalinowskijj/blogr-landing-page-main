@@ -727,4 +727,19 @@ body {
    padding-bottom: 186px;
  }
   /* section 1 end */
+
+  /* section2 */
+
+  /* delete opacity after pixel perfect  */
+  .section2 {
+    opacity: 0.5;
+  }
+  .section2::before {
+    top: -70px;
+    left: 123px;
+    width: 550px;
+    transform: translateX(0);
+  }
+
+  /* section2 end */
 }
