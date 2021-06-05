@@ -7,7 +7,7 @@
 
 .pixel::after {
     content: "";
-    background-image: url("design/mobile-menu.jpg");
+    background-image: url("design/mobile-design.jpg");
     background-repeat: no-repeat;
     background-size: 375px auto;
     opacity: 0.7;
@@ -44,7 +44,9 @@
 body {
   font-size: 1em;
 }
-
+.section1, .section2, .section3 {
+  opacity: 0.5;
+}
 /* set up page end */
 /* header */
 .header {
