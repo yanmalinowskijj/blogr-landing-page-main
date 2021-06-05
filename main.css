@@ -48,7 +48,6 @@ body {
 /* set up page end */
 /* header */
 .header {
-  opacity: 0.5;
   width: auto;
   height: auto;
   overflow: hidden;
@@ -137,7 +136,6 @@ body {
 /* for js show and hide menu end */
 /* style full menu */
 .white_zone {
-  opacity: 0.9;
   position: absolute;
   left: 0;
   right: 0;
