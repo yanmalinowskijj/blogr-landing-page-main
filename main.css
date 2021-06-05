@@ -7,7 +7,7 @@
 
 .pixel::after {
     content: "";
-    background-image: url("design/mobile-design.jpg");
+    background-image: url("design/mobile-menu.jpg");
     background-repeat: no-repeat;
     background-size: 375px auto;
     opacity: 0.7;
@@ -48,6 +48,7 @@ body {
 /* set up page end */
 /* header */
 .header {
+  opacity: 0.5;
   width: auto;
   height: auto;
   overflow: hidden;
@@ -136,6 +137,7 @@ body {
 /* for js show and hide menu end */
 /* style full menu */
 .white_zone {
+  opacity: 0.9;
   position: absolute;
   left: 0;
   right: 0;
@@ -231,10 +233,13 @@ body {
   font-family: 'Ubuntu', sans-serif;
   font-weight: 700;
   font-size: 1em;
-  color: hsl(208, 21%, 45%);
+  color: hsl(208, 47%, 23%);
 }
 
 .sign {
+  margin-left: auto;
+  margin-right: auto;
+  width: 42%;
   font-family: 'Ubuntu', sans-serif;
   font-weight: 700;
   font-size: 1em;
@@ -242,8 +247,6 @@ body {
   background-image: linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
   margin-top: 21px;
   padding-top: 19px;
-  margin-left: 94px;
-  margin-right: 94px;
   padding-bottom: 14px;
   border-radius: 46px;
   margin-bottom: 30px;
