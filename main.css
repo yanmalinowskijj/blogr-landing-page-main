@@ -616,6 +616,7 @@ body {
   }
 
   .sign {
+    width: auto;
     /* change margin after login hover will be done */
     margin-left: 28px;
     background-color: hsl(0, 0%, 100%);
